@@ -7,7 +7,7 @@ module.exports = {
         'hmif-yellow': '#F8C033',
       },
       fontFamily: {
-        heading: ['Josefin Sans'],
+        heading: ['Montserrat'],
         sans: ['Nunito'],
       },
     },
