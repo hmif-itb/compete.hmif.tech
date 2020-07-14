@@ -49,7 +49,7 @@ const HomeLayout = () => {
         <div className="flex flex-col justify-center items-center w-full min-h-screen">
           <div className="flex flex-col justify-center items-center w-full">
             <div className="relative">
-              <div className="font-heading text-hmif-yellow leading-none text-4xl">
+              <div className="font-heading font-bold text-hmif-yellow leading-none text-4xl">
                 Compete with HMIF!
               </div>
               <div

@@ -8,7 +8,7 @@ module.exports = {
       },
       fontFamily: {
         heading: ['Montserrat'],
-        sans: ['Nunito'],
+        sans: ['Montserrat'],
       },
     },
   },
