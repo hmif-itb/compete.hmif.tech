@@ -10,7 +10,7 @@ h2 {
 
 p {
   @apply mb-4;
-}
+} 
 
 ol {
   @apply list-decimal list-inside mx-2;
