@@ -12,8 +12,8 @@ const ArticlePage = ({
       <Header />
       {/* <div>{tableOfContents}</div> */}
       <div className="container mx-auto">
-        <div className="blog-post mb-12 px-6 md:px-0">
-          <div className=" pb-2 mb-4 relative">
+        <div className="blog-post mb-12 px-6 md:px-20">
+          <div className="pb-2 mb-4 relative">
             <h1 className="text-3xl font-bold">{frontmatter.title}</h1>
             <h2 className="text-sm font-light">{frontmatter.date}</h2>
             <div
