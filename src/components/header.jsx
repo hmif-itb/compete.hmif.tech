@@ -4,8 +4,8 @@ import React from 'react';
 import logoUrl from '../images/hmiftech.png';
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <div className="p-6 pl-6 md:pl-32">
+  <header className="container">
+    <div className="p-6 px-6 md:px-48">
       <Link
         to="/"
         style={{

@@ -1,5 +1,5 @@
 ---
-slug: '/article/ui-ux-competition'
+slug: '/ui-ux/landing'
 date: '2019-05-04'
 title: 'UI/UX Competition'
 ---

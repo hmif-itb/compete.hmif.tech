@@ -8,9 +8,10 @@ import '../css/tailwind.css';
 
 const IndexPage = () => {
   return (
-    <HomeLayout>
+    <>
+      <HomeLayout />
       <SEO title="Compete" />
-    </HomeLayout>
+    </>
   );
 };
 

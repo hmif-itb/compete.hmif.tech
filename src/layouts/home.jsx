@@ -21,29 +21,29 @@ import UiUxIcon from '../images/svg/ui-ux.svg';
 
 const competitions = [
   {
-    link: '/article/ui-ux-competition',
+    link: '/ui-ux',
     displayName: 'Data Science',
     icon: <DataScienceIcon width="110" height="110" />,
   },
   {
-    link: '/article/ui-ux-competition',
+    link: '/competitive-programming',
     displayName: 'Competitive Programming',
     icon: <CompetitiveProgrammingIcon width="110" height="110" />,
   },
   {
-    link: '/article/ui-ux-competition',
+    link: '/competitive-programming',
     displayName: 'Capture the Flag',
     icon: <CaptureTheFlagIcon width="110" height="110" />,
   },
   {
+    link: '/competitive-programming',
     displayName: 'Game Development',
     icon: <GameDevelopmentIcon width="110" height="110" />,
-    link: '/article/ui-ux-competition',
   },
   {
+    link: '/ui-ux',
     displayName: 'UI/UX Competition',
     icon: <UiUxIcon width="110" height="110" />,
-    link: '/article/ui-ux-competition',
   },
 ];
 
@@ -80,7 +80,11 @@ const HomeLayout = () => {
             <div className="flex flex-col md:flex-row justify-between py-10">
               {competitions.map((comp) => {
                 return (
-                  <Link to={comp.link} key={comp.displayName}>
+                  <Link
+                    to={comp.link}
+                    key={comp.displayName}
+                    className="hover-no-underline"
+                  >
                     <div className="flex flex-col items-center p-4 cursor-pointer">
                       <div>{comp.icon}</div>
                       <div className="italic text-hmif-yellow text-center text-lg">
