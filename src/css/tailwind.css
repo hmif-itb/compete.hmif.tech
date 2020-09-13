@@ -5,7 +5,11 @@
 @tailwind utilities;
 
 h2 {
-  @apply text-lg font-semibold;
+  @apply text-xl font-semibold;  
+}
+
+.index-content h2 {
+  @apply text-2xl font-semibold;
 }
 
 p {
@@ -25,4 +29,28 @@ ul {
 
 .hover-no-underline:hover {
   text-decoration: none;
+}
+
+code, pre {
+  color: #fff;
+  margin-bottom: 1.75rem;
+  padding: 0.2rem;
+  border-radius: 10px;
+  background: #011627;
+  font-family: Consolas,Menlo,Monaco,source-code-pro,Courier New,monospace;
+  font-feature-settings: normal;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  margin-bottom: 0;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  overflow-x: scroll;
 }

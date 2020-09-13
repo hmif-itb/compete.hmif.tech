@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/searching-and-sorting'
 date: '2019-05-04'
-title: 'Searching and Sorting - Competitive Programming'
+title: 'Searching and Sorting'
 ---
 
 

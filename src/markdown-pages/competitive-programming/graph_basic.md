@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/graph'
 date: '2019-05-04'
-title: 'Graph - Competitive Programming'
+title: 'Graph'
 ---
 
 ## Graph Representation

@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/dynamic-programming'
 date: '2019-05-04'
-title: 'Dynamic Programming - Competitive Programming'
+title: 'Dynamic Programming'
 ---
 
 ## Dynamic Programming

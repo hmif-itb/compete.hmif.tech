@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/greedy'
 date: '2019-05-04'
-title: 'Greedy - Competitive Programming'
+title: 'Greedy'
 ---
 
 ## Greedy

@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/input-and-output'
 date: '2019-05-04'
-title: 'Input and Output - Competitive Programming'
+title: 'Input and Output'
 ---
 
 ## Input and Output

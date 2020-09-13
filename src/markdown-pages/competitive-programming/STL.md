@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/standard-template-library'
 date: '2019-05-04'
-title: 'Standard Template Library - Competitive Programming'
+title: 'Standard Template Library'
 ---
 
 ## Standard Template Library

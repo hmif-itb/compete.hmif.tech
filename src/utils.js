@@ -7,9 +7,11 @@ export const computeEdges = (edges, slug) =>
       edge1.node.frontmatter.title > edge2.node.frontmatter.title ? 1 : -1
     );
 
-export const getTitle = (slug) =>
-  slug
+export const getTitle = (slug) => {
+  const temp = slug
     .slice(1)
     .split('-')
     .map((t) => t[0].toUpperCase() + t.substring(1))
     .join(' ');
+  return temp === 'Ui Ux' ? 'UI/UX Competition' : temp;
+};

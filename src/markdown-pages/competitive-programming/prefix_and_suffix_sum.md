@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/prefix-and-suffix'
 date: '2019-05-04'
-title: 'Prefix and Suffix - Competitive Programming'
+title: 'Prefix and Suffix'
 ---
 
 

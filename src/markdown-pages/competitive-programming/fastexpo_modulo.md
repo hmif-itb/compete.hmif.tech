@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/fast-exponential-modulo'
 date: '2019-05-04'
-title: 'Fast Exponential Modulo - Competitive Programming'
+title: 'Fast Exponential Modulo'
 ---
 
 ## Fast Exponential

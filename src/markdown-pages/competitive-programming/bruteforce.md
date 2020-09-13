@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/bruteforce'
 date: '2019-05-04'
-title: 'Bruteforce - Competitive Programming'
+title: 'Bruteforce'
 ---
 
 ## Bruteforce

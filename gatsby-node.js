@@ -1,4 +1,4 @@
-const { createFilePath } = require(`gatsby-source-filesystem`);
+// const { createFilePath } = require(`gatsby-source-filesystem`);
 
 /**
  * Implement Gatsby's Node APIs in this file.
@@ -35,8 +35,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       }
     }
   `);
-  console.log(result);
-  // Handle errors
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`);
     return;
@@ -46,7 +44,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       path: node.frontmatter.slug,
       component: blogPostTemplate,
       context: {
-        // additional data can be passed via context
         slug: node.frontmatter.slug,
       },
     });

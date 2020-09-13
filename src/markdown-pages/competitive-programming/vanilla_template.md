@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/vanilla-template'
 date: '2019-05-04'
-title: 'Vanilla Template - Competitive Programming'
+title: 'Vanilla Template'
 ---
 
 
