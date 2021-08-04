@@ -5,13 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
+import React from 'react';
+import { Link } from 'gatsby';
+// import PropTypes from 'prop-types';
+// import { useStaticQuery, graphql, Link } from 'gatsby';
 
 import Header from '../components/header';
-import LazyLoadedImage from '../components/image';
-import '../css/tailwind.css';
+// import LazyLoadedImage from '../components/image';
 
 import DataScienceIcon from '../images/svg/data-science.svg';
 import CompetitiveProgrammingIcon from '../images/svg/competitive-programming.svg';
@@ -21,22 +21,27 @@ import UiUxIcon from '../images/svg/ui-ux.svg';
 
 const competitions = [
   {
+    link: '/ui-ux',
     displayName: 'Data Science',
     icon: <DataScienceIcon width="110" height="110" />,
   },
   {
+    link: '/competitive-programming',
     displayName: 'Competitive Programming',
     icon: <CompetitiveProgrammingIcon width="110" height="110" />,
   },
   {
+    link: '/competitive-programming',
     displayName: 'Capture the Flag',
     icon: <CaptureTheFlagIcon width="110" height="110" />,
   },
   {
+    link: '/competitive-programming',
     displayName: 'Game Development',
     icon: <GameDevelopmentIcon width="110" height="110" />,
   },
   {
+    link: '/ui-ux',
     displayName: 'UI/UX Competition',
     icon: <UiUxIcon width="110" height="110" />,
   },
@@ -45,9 +50,10 @@ const competitions = [
 const HomeLayout = () => {
   return (
     <>
-      <div className="bg-white p-6 relative">
-        <div className="flex flex-col justify-center items-center w-full min-h-screen">
-          <div className="flex flex-col justify-center items-center w-full">
+      <div className="bg-white relative">
+        <div className="min-h-screen">
+          <Header />
+          <div className="flex flex-col justify-center items-center w-full p-6 mt-8 sm:mt-20 md:mt-32">
             <div className="relative">
               <div className="font-heading font-bold text-hmif-yellow leading-none text-4xl">
                 Compete with HMIF!
@@ -57,12 +63,12 @@ const HomeLayout = () => {
                 style={{ content: '', bottom: '-10px' }}
               />
             </div>
-          </div>
-          <div className="mt-8">
-            <div className="text-lg font-sans">
-              Bersaing adalah keseharian kami. Menjadi yang terbaik adalah minat
-              kami. Di HMIF, kami mau Anda untuk berada di puncak dari setiap
-              aspek kompetisi yang memungkinkan.
+            <div className="mt-8">
+              <div className="text-lg font-sans text-left md:text-center max-w-4xl">
+                Bersaing adalah keseharian kami. Menjadi yang terbaik adalah
+                minat kami. Di HMIF, kami mau Anda untuk berada di puncak dari
+                setiap aspek kompetisi yang memungkinkan.
+              </div>
             </div>
           </div>
         </div>
@@ -71,15 +77,21 @@ const HomeLayout = () => {
             <div className="text-xl font-bold text-center">
               Eksplorasi bidang-bidang ini.
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col md:flex-row justify-between py-10">
               {competitions.map((comp) => {
                 return (
-                  <div className="flex flex-col items-center p-4">
-                    <div>{comp.icon}</div>
-                    <div className="italic text-hmif-yellow">
-                      {comp.displayName}
+                  <Link
+                    to={comp.link}
+                    key={comp.displayName}
+                    className="hover-no-underline"
+                  >
+                    <div className="flex flex-col items-center p-4 cursor-pointer">
+                      <div>{comp.icon}</div>
+                      <div className="italic text-hmif-yellow text-center text-lg">
+                        {comp.displayName}
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 );
               })}
             </div>
