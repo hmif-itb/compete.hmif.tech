@@ -6,7 +6,7 @@ import '../css/article.css';
 // import useSitePath from '../hooks/useSiteMetaData';
 import { getCompetitionSlug, computeEdges, getTitle } from '../utils';
 
-const CompetitionPage = () => {
+const CompetitionPage = ({ location }) => {
   return (
     <StaticQuery
       query={graphql`
@@ -26,7 +26,7 @@ const CompetitionPage = () => {
       `}
       render={(data) => {
         const { edges } = data.allMarkdownRemark;
-        const path = window.location.pathname;
+        const path = location.pathname;
         const competitionSlug = getCompetitionSlug(path);
         const title = getTitle(competitionSlug);
         const finalEdges = computeEdges(edges, competitionSlug);

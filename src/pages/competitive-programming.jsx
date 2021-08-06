@@ -1,7 +1,7 @@
 import React from 'react';
 import CompetitionPage from '../layouts/competition';
 
-export default () => <CompetitionPage slug="/competitive-programming" />;
+export default ({ location }) => <CompetitionPage slug="/competitive-programming" location = { location }/>;
 
 // import React from 'react';
 // import { graphql, Link } from 'gatsby';
