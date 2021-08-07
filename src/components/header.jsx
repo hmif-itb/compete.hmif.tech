@@ -4,16 +4,16 @@ import React from 'react';
 import logoUrl from '../images/hmiftech.png';
 
 const Header = ({ siteTitle }) => (
-  <header className="container">
-    <div className="p-6 px-6 md:px-48">
+  <header className='container'>
+    <div className='p-6 px-6 md:px-48'>
       <Link
-        to="/"
+        to='/'
         style={{
-          textDecoration: `none`,
+          textDecoration: `none`
         }}
       >
-        <img src={logoUrl} width="150" />
-        <div className="font-heading font-bold text-hmif-yellow leading-none text-4xl mt-6">
+        <img src={logoUrl} alt='logo' width='150' />
+        <div className='font-heading font-bold text-hmif-yellow leading-none text-4xl mt-6'>
           {siteTitle}
         </div>
       </Link>
@@ -22,11 +22,11 @@ const Header = ({ siteTitle }) => (
 );
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  siteTitle: PropTypes.string
 };
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: ``
 };
 
 export default Header;

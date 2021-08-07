@@ -10,7 +10,7 @@ const IndexPage = () => {
   return (
     <>
       <HomeLayout />
-      <SEO title="Compete" />
+      <SEO title='Compete' />
     </>
   );
 };

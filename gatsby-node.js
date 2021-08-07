@@ -44,8 +44,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       path: node.frontmatter.slug,
       component: blogPostTemplate,
       context: {
-        slug: node.frontmatter.slug,
-      },
+        slug: node.frontmatter.slug
+      }
     });
   });
 };

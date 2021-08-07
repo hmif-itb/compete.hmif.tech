@@ -4,31 +4,31 @@ import Header from '../components/header';
 import { getCompetitionSlug, getTitle } from '../utils';
 
 const ArticlePage = ({
-  data, // this prop will be injected by the GraphQL query below.
-}) => {
+                       data // this prop will be injected by the GraphQL query below.
+                     }) => {
   const { markdownRemark } = data; // data.markdownRemark holds your post data
-  const { frontmatter, html, tableOfContents } = markdownRemark;
+  const { frontmatter, html } = markdownRemark;
   const competitionSlug = getCompetitionSlug(frontmatter.slug);
   const title = getTitle(competitionSlug);
 
   return (
-    <div className="mx-auto">
+    <div className='mx-auto'>
       <Header />
       {/* <div>{tableOfContents}</div> */}
-      <div className="container mx-auto">
-        <div className="blog-post mb-12 px-6 md:px-20">
-          <div className="pb-2 mb-4 relative">
+      <div className='container mx-auto'>
+        <div className='blog-post mb-12 px-6 md:px-20'>
+          <div className='pb-2 mb-4 relative'>
             <Link to={competitionSlug}>
-              <h1 className="text-3xl font-bold">{title}</h1>
+              <h1 className='text-3xl font-bold'>{title}</h1>
             </Link>
-            <h2 className="text-sm font-light">{frontmatter.date}</h2>
+            <h2 className='text-sm font-light'>{frontmatter.date}</h2>
             <div
-              className="absolute bottom-0 w-48 h-1 bg-hmif-yellow"
+              className='absolute bottom-0 w-48 h-1 bg-hmif-yellow'
               style={{ content: '' }}
             />
           </div>
           <div
-            className="blog-post-content"
+            className='blog-post-content'
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>

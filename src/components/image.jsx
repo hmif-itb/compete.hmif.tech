@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
@@ -28,7 +28,7 @@ const LazyLoadedImage = () => {
 
   return (
     <Img
-      className="object-cover w-full h-full"
+      className='object-cover w-full h-full'
       style={{ filter: 'grayscale(90%)' }}
       fluid={data.placeholderImage.childImageSharp.fluid}
     />
