@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `CNC`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `CnC`,
+    description: `Competition and Community HMIF ITB Website.`,
     author: `@gatsbyjs`
   },
   plugins: [
@@ -21,12 +21,6 @@ module.exports = {
         name: `markdown-pages`
       }
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     path: `${__dirname}/src/images`,
-    //   },
-    // },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -55,8 +49,6 @@ module.exports = {
       }
     },
     `gatsby-plugin-netlify`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
     'gatsby-plugin-postcss'
   ]

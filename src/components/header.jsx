@@ -9,10 +9,10 @@ const Header = ({ siteTitle }) => (
       textDecoration: `none`
     }}
   >
-    <header className='bg-hmif-yellow pb-5 w-full'>
+    <header className='bg-hmif-yellow w-full'>
 
       <div className='p-3 px-6 md:px-48'>
-        <div className='font-heading font-bold leading-none text-4xl mt-3'>
+        <div className='font-heading font-bold text-center text-black leading-none text-4xl my-3'>
           {siteTitle}
         </div>
       </div>

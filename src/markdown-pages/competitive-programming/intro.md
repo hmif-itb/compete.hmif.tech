@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/start'
 date: '2019-05-04'
-title: 'Intro Competitive Programming'
+title: 'Starting Competitive Programming'
 ---
 
 # Starting Competitive Programming

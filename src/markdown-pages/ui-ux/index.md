@@ -6,7 +6,7 @@ title: 'UI/UX Competition'
 
 Jadi, ini adalah sebuah guide mengenai kompetisi UI/UX. Dalam guide ini, akan dibahas mengenai beberapa pertanyaan yang sering ditanyakan terkait kompetisi-kompetisi serupa.
 
-<h2>Apa itu UI/UX Competition?</h2>
+## Apa itu UI/UX Competition?
 
 Dari namanya, UI/UX competition adalah lomba yang fokusnya pada bidang UI/UX. Untuk memahami sebenarnya dalam kompetisi tersebut perlu melakukan dan memiliki skill apa saja, tentu saja sebelumnya kita harus memahami apa itu UI dan UX.
 
@@ -27,10 +27,10 @@ Sebenarnya, dalam dunia desain terdapat teori-teori yang bisa menjadi panduan. J
 Namun, tidak hanya kemampuan desain grafis saja yang dibutuhkan. Konsep-konsep psikologi juga diperlukan dalam mengikuti perlombaan ini. Contoh, psikologi warna (suatu warna akan memberikan kesan yang berbeda) dan hierarki visual (objek yang cenderung besar akan dilihat lebih dulu). Fun fact; banyak orang dari jurusan Psikologi dapat mengambil peran di perusahaan sebagai UX designer karena hal ini!
 
 Sebagai catatan, terdapat beberapa pilihan program yang dapat digunakan untuk mendesain mockup suatu aplikasi:
-
 - Adobe XD
 - Figma
 - Sketch
+
 
 Masing-masing memiliki kelemahan dan kelebihannya sendiri. Untuk penulis sendiri prefer Figma.
 
@@ -38,11 +38,11 @@ Masing-masing memiliki kelemahan dan kelebihannya sendiri. Untuk penulis sendiri
 
 Untuk memulai, terdapat beberapa langkah yang dapat diambil:
 
-1. Empathize
+### 1. Empathize 
 
 Dalam hal ini, riset meliputi hal-hal seperti mencari tahu tentang pengguna dari aplikasi yang digunakan, seperti keperluan mereka, demografis usia, dan lain-lain. Tahap ini juga meliputi mencari persona dari pengguna.
 
-2. Define
+### 2. Define
 
 Dari hasil sebelumnya, tentu akan diperoleh data terkait pengguna. Dari sini, buatlah poin-poin masalah yang ada. Dengan melakukan ini, akan memudahkan untuk tahapan-tahapan selanjutnya. Masalah-masalah yang ada contohnya seperti berikut:
 
@@ -50,7 +50,7 @@ Dari hasil sebelumnya, tentu akan diperoleh data terkait pengguna. Dari sini, bu
 - Pengguna rata-rata usia >40 tahun, tulisan terlalu kecil
 - dsb.
 
-3. Ideate
+### 3. Ideate
 
 Tahap ini adalah tahap di mana solusi untuk permasalahan dicari. Sebagai contoh, untuk masalah di poin sebelumnya:
 
@@ -59,11 +59,11 @@ Tahap ini adalah tahap di mana solusi untuk permasalahan dicari. Sebagai contoh,
 
 Perlu diperhatikan, kadang masalah yang ada bisa merupakan keseluruhan fitur. Sehingga, solusinya mungkin tidak sesederhana itu. Permasalahan itu dapat diselesaikan dengan memecah-mecahnya menjadi masalah yang lebih kecil.
 
-4. Prototyping
+### 4. Prototyping
 
 Prototyping adalah tahap di mana kita mulai melakukan desain prototipe aplikasi dengan aplikasi yang sudah disebutkan sebelumnya. Tahap ini bisa dibilang melakukan implementasi terhadap solusinya. Di sini, prinsip-prinsip desain bisa dipraktekan.
 
-5. Testing
+### 5. Testing
 
 Testing adalah tahap di mana kita mengambil beberapa sampel user untuk mengujicobakan hasil prototipe kita. Dari tahap ini, kita memanfaatkan feedback dari user untuk menyempurnakan prototipe ini
 
