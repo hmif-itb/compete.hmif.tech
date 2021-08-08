@@ -4,7 +4,7 @@ import Header from '../components/header';
 import SEO from '../components/seo';
 import '../css/article.css';
 // import useSitePath from '../hooks/useSiteMetaData';
-import { getCompetitionSlug, computeEdges, getTitle } from '../utils';
+import { getCompetitionSlug, computeEdges, getTitle } from '../helpers/utils';
 
 const CompetitionPage = ({ location }) => {
   return (
@@ -31,38 +31,26 @@ const CompetitionPage = ({ location }) => {
         const title = getTitle(competitionSlug);
         const finalEdges = computeEdges(edges, competitionSlug);
         return (
-          <div className="mx-auto">
+          <div className='mx-auto bg-black text-white min-h-screen'>
             <SEO title={title} />
-            <Header />
-            <div className="container mx-auto">
-              <div className="blog-post mb-12 px-6 md:px-20">
-                <div className="pb-2 mb-4 relative">
-                  <h1 className="text-3xl font-bold">{title}</h1>
-                  <div className="text-xl">Table of content</div>
-                  <ol className="mb-8">
+            <Header siteTitle={title} />
+            <div className='container mx-auto mt-5'>
+              <div className='blog-post mb-12 px-6 md:px-20'>
+                <div className='pb-2 mb-4 relative font-sans'>
+                  <h1 className='text-3xl text-cnc-yellow font-bold font-sans'>{title}</h1>
+                  <div className='text-xl font-bold'>Materials:</div>
+                  <ul className='mb-8'>
                     {finalEdges.map((edge) => {
                       const siteData = edge.node.frontmatter;
                       return (
                         <li key={siteData.title}>
                           <Link to={siteData.slug}>
-                            <span className="text-lg">{siteData.title}</span>
+                            <span className='text-lg text-blue-400'>{siteData.title}</span>
                           </Link>
                         </li>
                       );
                     })}
-                  </ol>
-                  <hr className="mb-4" />
-                  {finalEdges.map((edge) => {
-                    const html = edge.node.html;
-                    return (
-                      <div className="mb-8">
-                        <p
-                          className="index-content"
-                          dangerouslySetInnerHTML={{ __html: html }}
-                        />
-                      </div>
-                    );
-                  })}
+                  </ul>
                 </div>
               </div>
             </div>
