@@ -8,19 +8,16 @@ title: 'Graph'
 
 [Graph](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)) is an abstract data type, structured with vertex/node and edge. Here is a simple example:
 
-![GraphExample](./images/GraphExample.svg)
-
-A directed graph with three vertices (blue circle) and three edges (black arrows)
+![GraphExample](https://media.geeksforgeeks.org/wp-content/cdn-uploads/undirectedgraph.png)
 
 Graph could be represented in many ways in programming, here are some of the most common ways.
 
 ### Adjacency Matrix
 
 The adjacency matrix, sometimes also called the connection matrix, of a simple labeled graph is a matrix with rows and columns labeled by graph vertices, with a $1$ or $0$ in position $(v_i,v_j)$ according to whether $v_i$ and $v_j$ are adjacent or not.
-
-![AMUD](./images/AdjacencyMatrix.png)
-
 If the graph has a weight, than you can simply change $1$ in the matrix with it's weight, and if for some $v_i$ and $v_j$ there isn't any edge, you can store it as $-1$ or $\infty$.
+
+![AMUD](https://www.researchgate.net/publication/326959557/figure/fig1/AS:658714340098048@1534061145513/Converting-a-square-adjacency-matrix-into-an-undirected-network-a-In-Excel-Python.png)
 
 In C++, we can use $\text{2D}$ array, or a $\text{2D}$ vector to store this:
 
@@ -43,7 +40,7 @@ This represantion obviously takes $O(V^2)$ memory, where $V$ is the number of no
 
 An edge list is a data structure used to represent a graph as a list of its edges. An (unweighted) edge is defined by its start and end vertex, so each edge may be represented by two numbers.
 
-![EdgeList](./images/EdgeList.png)
+![EdgeList](https://i.imgur.com/F2XET50.png)
 
 In C++, we can store this simply with a list of pair:
 
@@ -64,7 +61,7 @@ This representation takes $O(E)$ memory, where $E$ is the number of edge. This r
 
 In graph theory and computer science, an adjacency list is a collection of unordered lists used to represent a finite graph. Each list describes the set of neighbors of a vertex in the graph. This is one of several commonly used representations of graphs for use in computer programs.
 
-![AdjacencyList](./images/AdjacencyList.JPG)
+![AdjacencyList](https://i.imgur.com/JwA2sxn.png)
 
 This graph representation is often used in CP, mainly because it's easy to do traversal in the graph with this representation.
 
@@ -92,7 +89,7 @@ This representation takes $O(V + E)$ memory.
 
 Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.
 
-![DFS](./images/DFS.png)
+![DFS](https://miro.medium.com/max/1838/1*VM84VPcCQe0gSy44l9S5yA.jpeg)
 
 We can implement this in C++ with an adjacency list, array of visited nodes, and a dfs method (or a `stack` data structure):
 
@@ -113,8 +110,6 @@ void dfs(int u) {
 Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key'), and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.
 
 It uses the opposite strategy as depth-first search, which instead explores the node branch as far as possible before being forced to backtrack and expand other nodes.
-
-![BFS](./images/BFS.png)
 
 To implement it in C++, it's quite similar to DFS, but instead of using a `stack`, we use the `queue` data structure:
 
@@ -141,17 +136,13 @@ while (!q.empty()) {
 
 In graph theory, the shortest path problem is the problem of finding a path between two vertices (or nodes) in a graph such that the sum of the weights of its constituent edges is minimized.
 
-![ShortestPath](./images/ShortestPath.svg)
-
-Shortest path $(A, C, E, D, F)$ between vertices $A$ and $F$ in the weighted directed graph.
-
 We will see three common ways to find shortest path in graph.
 
 #### Floyd Warshall
 
 In computer science, the Floyd–Warshall algorithm (also known as Floyd's algorithm, the Roy–Warshall algorithm, the Roy–Floyd algorithm, or the WFI algorithm) is an algorithm for finding shortest paths in a weighted graph with positive or negative edge weights (but with no negative cycles).
 
-![FloydWarshall](./images/FloydWarshall.png)
+![FloydWarshall](https://user-images.githubusercontent.com/32994398/39281395-51c2ef60-48d2-11e8-81b5-02ebd87b9aca.PNG)
 
 To implement this, we need to use Adjacency Matrix, here is the implementation in C++:
 
