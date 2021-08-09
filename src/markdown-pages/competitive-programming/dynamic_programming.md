@@ -20,7 +20,7 @@ notice that if you want to find the $N$-th fibonacci sequence, chances are you n
 
 For instance, calling fibbonaci($6$), is depicted as the following:
 
-![fibonacci](./images/fib.png)
+![fibonacci](https://theoryofprogramming.files.wordpress.com/2015/02/knap1.jpg)
 
 If you do it naively, you will have a time complexity of $O(2^N)$, which is very slow.
 

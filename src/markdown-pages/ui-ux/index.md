@@ -1,7 +1,7 @@
 ---
 slug: '/ui-ux/landing'
 date: '2019-05-04'
-title: 'UI/UX Competition'
+title: 'Guide to UI/UX Competition'
 ---
 
 Jadi, ini adalah sebuah guide mengenai kompetisi UI/UX. Dalam guide ini, akan dibahas mengenai beberapa pertanyaan yang sering ditanyakan terkait kompetisi-kompetisi serupa.
