@@ -1,5 +1,5 @@
 ---
-slug: '/ui-ux/landing'
+slug: '/ui-ux/guide'
 date: '2019-05-04'
 title: 'Guide to UI/UX Competition'
 ---
@@ -27,10 +27,10 @@ Sebenarnya, dalam dunia desain terdapat teori-teori yang bisa menjadi panduan. J
 Namun, tidak hanya kemampuan desain grafis saja yang dibutuhkan. Konsep-konsep psikologi juga diperlukan dalam mengikuti perlombaan ini. Contoh, psikologi warna (suatu warna akan memberikan kesan yang berbeda) dan hierarki visual (objek yang cenderung besar akan dilihat lebih dulu). Fun fact; banyak orang dari jurusan Psikologi dapat mengambil peran di perusahaan sebagai UX designer karena hal ini!
 
 Sebagai catatan, terdapat beberapa pilihan program yang dapat digunakan untuk mendesain mockup suatu aplikasi:
+
 - Adobe XD
 - Figma
 - Sketch
-
 
 Masing-masing memiliki kelemahan dan kelebihannya sendiri. Untuk penulis sendiri prefer Figma.
 
@@ -38,7 +38,7 @@ Masing-masing memiliki kelemahan dan kelebihannya sendiri. Untuk penulis sendiri
 
 Untuk memulai, terdapat beberapa langkah yang dapat diambil:
 
-### 1. Empathize 
+### 1. Empathize
 
 Dalam hal ini, riset meliputi hal-hal seperti mencari tahu tentang pengguna dari aplikasi yang digunakan, seperti keperluan mereka, demografis usia, dan lain-lain. Tahap ini juga meliputi mencari persona dari pengguna.
 

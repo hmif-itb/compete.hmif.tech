@@ -4,7 +4,6 @@ date: '2019-05-04'
 title: 'Prefix and Suffix'
 ---
 
-
 ## Prefix and Suffix Sum
 
 Prefix and suffix sum is a technique that is useful to handle subarray sums.

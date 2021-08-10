@@ -4,11 +4,11 @@ date: '2019-05-04'
 title: 'Searching and Sorting'
 ---
 
-
 ## Searching and Sorting
+
 ### Sorting
 
-Sorting can be said as one of the most important things to know when starting cp. There are many well-known sorting algorithms out there. 
+Sorting can be said as one of the most important things to know when starting cp. There are many well-known sorting algorithms out there.
 Lucky for you, to sort a sequence in C++, you don’t have to make your own code.
 
 In this tutorial we are going to use array and vector.
@@ -120,7 +120,7 @@ for (auto x : ar) {
 }
 ```
 
-Using linear search would result in a $O(N)$ of time complexity per searching. 
+Using linear search would result in a $O(N)$ of time complexity per searching.
 
 Other than linear search, there are other searching algorithms. One of the most commonly used is binary search. To execute binary search inside an array, you need to have the array sorted first.
 
@@ -147,10 +147,9 @@ while (low <= high) {
 }
 ```
 
-If you are given an unordered array, using a binary search algorithm would require you to sort the elements first, resulting in a $O(N \log N)$ time complexity, knowing that fact, you have to remember that you only needed to do the sorting once. 
+If you are given an unordered array, using a binary search algorithm would require you to sort the elements first, resulting in a $O(N \log N)$ time complexity, knowing that fact, you have to remember that you only needed to do the sorting once.
 
 After the array is sorted, you can perform an arbitrary number of searches in only $O(\log N)$ time complexity per search.
-
 
 Other than to search an element, you can also use binary search to search for an answer (usually called “binary search the answer”).
 

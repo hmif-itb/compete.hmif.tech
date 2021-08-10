@@ -6,7 +6,7 @@ title: 'Dynamic Programming'
 
 ## Dynamic Programming
 
-Dynamic Programming is an algorithm design technique to find an optimal solution of a problem or to count how many possibilities of something to occur. 
+Dynamic Programming is an algorithm design technique to find an optimal solution of a problem or to count how many possibilities of something to occur.
 
 Dynamic Programming can be seen as an optimization method that uses memory to store an answer of recursions call. With the stored answer, you don’t need to execute the function call again and then can save some time with that later.
 
@@ -14,7 +14,7 @@ One such example is to use dynamic programming for finding a fibonacci sequence.
 
 A fibonacci sequence can be defined as:
 
-$$ F_n = F_{n-1} + F_{n-2} $$
+$$ F*n = F*{n-1} + F\_{n-2} $$
 
 notice that if you want to find the $N$-th fibonacci sequence, chances are you need to call some functions multiple times.
 
@@ -63,11 +63,11 @@ While the bottom-up dynamic programming is shorter to code and have a faster run
 
 ### Finding Longest Common Subsequence of 2 Strings
 
-Statement: Given 2 strings $S$ and $T$, find the longest common subsequence of them. 
+Statement: Given 2 strings $S$ and $T$, find the longest common subsequence of them.
 
 A subsequence is a sequence that can be constructed by taking elements from the original sequence without changing the order.
 
-*For Example*, Given string $S = "\text{ABCDE}"$, strings “$\text{CE}$”, “$\text{ABD}$”, “$\text{BC}$” is a subsequence of string $S$, While strings “$\text{ADB}$”, “$\text{CB}$”, “$\text{EA}$” is not.
+_For Example_, Given string $S = "\text{ABCDE}"$, strings “$\text{CE}$”, “$\text{ABD}$”, “$\text{BC}$” is a subsequence of string $S$, While strings “$\text{ADB}$”, “$\text{CB}$”, “$\text{EA}$” is not.
 
 #### Top-down implementation
 
@@ -96,7 +96,6 @@ int LCS(int i, int j) {
 	return dp[i][j];
 }
 ```
-
 
 #### Bottom-up implementation
 

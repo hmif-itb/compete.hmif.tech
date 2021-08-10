@@ -2,24 +2,24 @@ module.exports = {
   siteMetadata: {
     title: `CnC`,
     description: `Competition and Community HMIF ITB Website.`,
-    author: `@gatsbyjs`
+    author: `@CnCHMIFITB`,
   },
   plugins: [
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
-          include: /svg/
-        }
-      }
+          include: /svg/,
+        },
+      },
     },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/markdown-pages`,
-        name: `markdown-pages`
-      }
+        name: `markdown-pages`,
+      },
     },
     `gatsby-plugin-sharp`,
     {
@@ -29,11 +29,11 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 800
-            }
-          }
-        ]
-      }
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
     },
     `gatsby-transformer-sharp`,
     {
@@ -45,11 +45,11 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/hmiftech.png` // This path is relative to the root of the site.
-      }
+        icon: `src/images/hmiftech.png`, // This path is relative to the root of the site.
+      },
     },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
-    'gatsby-plugin-postcss'
-  ]
+    'gatsby-plugin-postcss',
+  ],
 };

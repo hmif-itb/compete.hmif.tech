@@ -6,18 +6,6 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-// exports.onCreateNode = ({ node, getNode, actions }) => {
-//   const { createNodeField } = actions;
-//   if (node.internal.type === `MarkdownRemark`) {
-//     const slug = createFilePath({ node, getNode, basePath: `markdown-pages` });
-//     createNodeField({
-//       node,
-//       name: `slug`,
-//       value: slug,
-//     });
-//   }
-// };
-
 // You can delete this file if you're not using it
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
@@ -44,8 +32,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       path: node.frontmatter.slug,
       component: blogPostTemplate,
       context: {
-        slug: node.frontmatter.slug
-      }
+        slug: node.frontmatter.slug,
+      },
     });
   });
 };
