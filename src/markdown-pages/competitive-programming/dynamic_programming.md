@@ -14,7 +14,11 @@ One such example is to use dynamic programming for finding a fibonacci sequence.
 
 A fibonacci sequence can be defined as:
 
-$$ F*n = F*{n-1} + F\_{n-2} $$
+<div align='center'>
+
+$$ F_n = F_{n-1} + F_{n-2} $$
+
+</div>
 
 notice that if you want to find the $N$-th fibonacci sequence, chances are you need to call some functions multiple times.
 
