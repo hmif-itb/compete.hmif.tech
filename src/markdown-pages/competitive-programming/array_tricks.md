@@ -29,7 +29,7 @@ There is actually a better way to do this,
 // const int N = some_number;
 
 int _ar[2 * N];
-int * ar = ar + N; // put the array pointer to the base index
+int * ar = _ar + N; // put the array pointer to the base index
 
 // print element at index -2
 cout << ar[-2];

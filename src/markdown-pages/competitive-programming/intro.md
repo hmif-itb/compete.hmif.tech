@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/start'
 date: '2019-05-04'
-title: 'Starting Competitive Programming'
+title: 'A Guide to Start Competitive Programming'
 ---
 
 ## Starting Competitive Programming
@@ -26,7 +26,7 @@ Given a list of $N$ integer numbers, $A_1, A_2, ..., A_N$. Find the number of pa
 
 Numbers $A_i$ and $A_j$ is a pair of number if and only if $i \neq j$.
 
-Two pairs $(A_i, A_j)$ and $(A_X, A_Y)$ is different if and only if (($i \neq x$ or $j \neq y$) and ($i \neq y$ or $j \neq x$))
+Two pairs $(A_i, A_j)$ and $(A_x, A_y)$ is different if and only if (($i \neq x$ or $j \neq y$) and ($i \neq y$ or $j \neq x$))
 
 **Input**
 
@@ -41,22 +41,28 @@ Print a single line containing the number of pairs in the list which adds up to 
 **Examples**
 
 Input:
-```
+
+```c++
 5
 3 7 2 8 8
 ```
+
 Output:
-```
+
+```c++
 3
 ```
 
 Input:
-```
+
+```c++
 4
 5 5 5 5
 ```
+
 Output:
-```
+
+```c++
 6
 ```
 
@@ -74,7 +80,6 @@ In order to start your competitive programming journey, you will need the right 
 
 The first tool is the IDE/code editor, which is basically the environment you're going to use to program. There are tons of awesome IDEs and code editors, but I recommend using **Visual Studio Code**, because it is one of the simplest and widely used code editor. You could go install it [here](https://code.visualstudio.com/).
 
-
 ### Programming Language
 
 When it comes to CP, C++ is by far the most widely used language. This is mainly because C++ have a lot of great template library and it is faster than other languages. You could see a detailed instruction to install C++ right [here](https://www.tutorialspoint.com/cplusplus/cpp_environment_setup.htm).
@@ -83,7 +88,7 @@ After you install those two tools, you could also install extensions on visual s
 
 ## Code Example
 
-In this example we are going to solve the [problem example](#Problem-Example). Keep in mind that on the problem we have time limit constraint of 1 second, and to approximate whether the solution is acceptable or not we are going to use the rule of thumb that for every **10^8** operations, it will take about 1 second to run. **Remember that this is only a rule of thumb** so that it will be easier to tell whether your program is good enough or not.
+In this example we are going to solve the [problem example](#Problem-Example). Keep in mind that on the problem we have time limit constraint of 1 second, and to approximate whether the solution is acceptable or not we are going to use the rule of thumb that for every $10^8$ operations, it will take about $1$ second to run. **Remember that this is only a rule of thumb** so that it will be easier to tell whether your program is good enough or not.
 
 Now let's begin to solve the previous given problem. If you are new to programming, don't worry, you only need to know the basics which is IO, if-else statements, loops, and functions. One of the easiest solution for the problem is to choose two different elements (not necessarily different element value) in the list, and so we could use two for-loops and try every pair in the list. Here is the code written in C++:
 

@@ -36,7 +36,7 @@ do {
     cout << '\n';
 } while (next_permutation(a, a + 5));
 ```
- 
+
 **Note**: You need to have the array sorted first, if you want to see all it’s permutations.
 
 ### Finding all subset

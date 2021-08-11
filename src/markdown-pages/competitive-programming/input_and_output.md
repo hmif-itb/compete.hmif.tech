@@ -29,7 +29,7 @@ The second way of taking input is to use `cin`, which is faster to type, and you
 ```c++
 int n; // integer
 long long m; // long integer
-string s; // 
+string s; //
 
 cin >> n >> m >> s;
 
@@ -97,7 +97,6 @@ cout << fixed << setprecision(9) << num << '\n';
 ### Common Mistakes
 
 Now, there is a common mistake which beginners usually made. When printing an endline, don’t use `endl`, and always use `'\n'`, because it is faster and doesn't flush the output. An exception of this would be in interactive problem, and so you can use `endl`.
-
 
 Here is an illustration:
 

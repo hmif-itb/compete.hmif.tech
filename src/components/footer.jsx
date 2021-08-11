@@ -3,9 +3,9 @@ import React from 'react';
 import '../css/footer.css';
 
 const Footer = () => (
-  <footer className='bg-hmif-yellow'>
-    <div className='md:px-48'>
-      <div className='font-sans italic text-center text-black py-5 leading-none'>
+  <footer className="bg-hmif-yellow">
+    <div className="md:px-48">
+      <div className="font-sans italic text-center text-black py-5 leading-none">
         Competition is a great thing, it forces us to do the best!
       </div>
     </div>
@@ -13,11 +13,11 @@ const Footer = () => (
 );
 
 Footer.propTypes = {
-  siteTitle: PropTypes.string
+  siteTitle: PropTypes.string,
 };
 
 Footer.defaultProps = {
-  siteTitle: ``
+  siteTitle: ``,
 };
 
 export default Footer;

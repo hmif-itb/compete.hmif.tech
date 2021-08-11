@@ -4,8 +4,6 @@ date: '2019-05-04'
 title: 'Vanilla Template'
 ---
 
-
-
 ## Template for Competitive Programming
 
 There are a lot of templates that you can use, it’s up to you really. But, usually there is a common template that many competitive programmers use.
@@ -26,7 +24,7 @@ int main() {
 }
 ```
 
-The first line on that template includes all the necessary stuff you might need (such as algorithms, math, etc). Then the first 3 *magic* lines in the main function is to speed up input and output when using `cin` and `cout`.
+The first line on that template includes all the necessary stuff you might need (such as algorithms, math, etc). Then the first 3 _magic_ lines in the main function is to speed up input and output when using `cin` and `cout`.
 
 This may be called the basic template, so you could add some more if you want to, for an example:
 
