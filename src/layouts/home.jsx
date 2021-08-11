@@ -4,13 +4,13 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import HomeContent from '../components/home-content';
 import CONSTANTS from '../constants';
-import { MdExplore } from 'react-icons/md';
+import { AiFillCompass } from 'react-icons/ai';
 
 const HomeLayout = () => {
   const { competitions, homeContents } = CONSTANTS;
   return (
     <>
-      <div className="bg-black min-h-screen">
+      <div className="bg-gray-900 min-h-screen">
         <Header siteTitle={'Competition and Community HMIF'} />
         {homeContents.map(({ title, description, logo }) => {
           return (
@@ -18,9 +18,9 @@ const HomeLayout = () => {
           );
         })}
         <div className="container mx-auto pt-5 px-10 md:py-10">
-          <div className="text-xl flex flex-row justify-center items-center font-bold font-heading text-center text-cnc-yellow">
-            <MdExplore className="mr-2" /> Eksplorasi bidang-bidang ini!{' '}
-            <MdExplore className="ml-2" />
+          <div className="text-lg md:text-xl flex flex-row justify-center items-center font-bold font-heading text-center text-cnc-yellow">
+            <AiFillCompass className="mr-2" size={25} /> {"Explore This Competitions!"}
+            <AiFillCompass className="ml-2" size={25} />
           </div>
           <div className="flex flex-col md:flex-row justify-between py-3">
             {competitions.map(({ link, displayName, icon }) => {

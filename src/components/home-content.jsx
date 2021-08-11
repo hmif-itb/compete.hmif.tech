@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HomeContent = ({ title, description, logo }) => (
-  <div className="flex flex-col justify-center items-center p-3 w-full mt-3 sm:mt-20 md:mt-8">
+  <div className="flex flex-col justify-center items-center w-full my-5 sm:mt-20 md:mt-8">
     <div className="relative">
       <div className="flex flex-row font-bold font-heading text-hmif-yellow leading-none text-2xl md:text-3xl">
         <div className="mr-3">{logo}</div> {title}{' '}

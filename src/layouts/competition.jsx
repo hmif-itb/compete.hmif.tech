@@ -31,13 +31,13 @@ const CompetitionPage = ({ location }) => {
         const finalEdges = computeEdges(edges, competitionSlug);
         return (
           <>
-            <div className="mx-auto bg-black text-white min-h-screen">
+            <div className="mx-auto bg-gray-900 text-white min-h-screen">
               <SEO title={title} />
               <Header siteTitle={title} />
-              <div className="container mx-auto mt-5">
+              <div className="container md:px-20 mx-auto mt-5">
                 <div className="blog-post mb-12 px-6 md:px-20">
                   <div className="pb-2 mb-4 relative font-sans">
-                    <h1 className="text-3xl text-cnc-yellow font-bold font-sans">
+                    <h1 className="text-3xl font-bold text-cnc-yellow font-sans">
                       {title}
                     </h1>
                     <div className="text-xl font-bold">Materials:</div>
@@ -47,7 +47,7 @@ const CompetitionPage = ({ location }) => {
                         return (
                           <li key={siteData.title}>
                             <Link to={siteData.slug}>
-                              <span className="text-lg text-blue-400">
+                              <span className="text-lg text-blue-500">
                                 {siteData.title}
                               </span>
                             </Link>
@@ -55,6 +55,11 @@ const CompetitionPage = ({ location }) => {
                         );
                       })}
                     </ul>
+                    <Link to="/">
+                      <div className='md:text-xl bg-gray-800 p-2 text-center mt-2 font-bold text-cnc-yellow'>
+                        {"Explore other Competitions!"}
+                      </div>
+                    </Link>
                   </div>
                 </div>
               </div>
