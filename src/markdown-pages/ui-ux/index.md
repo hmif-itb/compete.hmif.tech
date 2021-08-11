@@ -4,8 +4,6 @@ date: '2019-05-04'
 title: 'Guide to UI/UX Competition'
 ---
 
-Jadi, ini adalah sebuah guide mengenai kompetisi UI/UX. Dalam guide ini, akan dibahas mengenai beberapa pertanyaan yang sering ditanyakan terkait kompetisi-kompetisi serupa.
-
 ## Apa itu UI/UX Competition?
 
 Dari namanya, UI/UX competition adalah lomba yang fokusnya pada bidang UI/UX. Untuk memahami sebenarnya dalam kompetisi tersebut perlu melakukan dan memiliki skill apa saja, tentu saja sebelumnya kita harus memahami apa itu UI dan UX.

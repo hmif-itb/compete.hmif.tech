@@ -1,7 +1,7 @@
 ---
 slug: '/competitive-programming/start'
 date: '2019-05-04'
-title: 'Starting Competitive Programming'
+title: 'A Guide to Start Competitive Programming'
 ---
 
 ## Starting Competitive Programming
@@ -26,7 +26,7 @@ Given a list of $N$ integer numbers, $A_1, A_2, ..., A_N$. Find the number of pa
 
 Numbers $A_i$ and $A_j$ is a pair of number if and only if $i \neq j$.
 
-Two pairs $(A_i, A_j)$ and $(A_X, A_Y)$ is different if and only if (($i \neq x$ or $j \neq y$) and ($i \neq y$ or $j \neq x$))
+Two pairs $(A_i, A_j)$ and $(A_x, A_y)$ is different if and only if (($i \neq x$ or $j \neq y$) and ($i \neq y$ or $j \neq x$))
 
 **Input**
 
@@ -42,27 +42,27 @@ Print a single line containing the number of pairs in the list which adds up to 
 
 Input:
 
-```
+```c++
 5
 3 7 2 8 8
 ```
 
 Output:
 
-```
+```c++
 3
 ```
 
 Input:
 
-```
+```c++
 4
 5 5 5 5
 ```
 
 Output:
 
-```
+```c++
 6
 ```
 

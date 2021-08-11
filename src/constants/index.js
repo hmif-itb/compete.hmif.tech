@@ -10,7 +10,7 @@ import { BsFillInfoSquareFill, BsPeopleCircle } from 'react-icons/bs';
 const CONSTANTS = {
   competitions: [
     {
-      link: '/ui-ux',
+      link: '/data-science',
       displayName: 'Data Science',
       icon: <DataScienceIcon width="110" height="110" />,
     },
