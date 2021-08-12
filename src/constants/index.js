@@ -5,6 +5,7 @@ import GameDevelopmentIcon from '../images/svg/game-development.svg';
 import UiUxIcon from '../images/svg/ui-ux.svg';
 import React from 'react';
 import { RiMedalFill } from 'react-icons/ri';
+import { GiTrophy } from 'react-icons/gi';
 import { BsFillInfoSquareFill, BsPeopleCircle } from 'react-icons/bs';
 
 const CONSTANTS = {
@@ -20,12 +21,12 @@ const CONSTANTS = {
       icon: <CompetitiveProgrammingIcon width="110" height="110" />,
     },
     {
-      link: '/competitive-programming',
+      link: '/capture-the-flag',
       displayName: 'Capture the Flag',
       icon: <CaptureTheFlagIcon width="110" height="110" />,
     },
     {
-      link: '/competitive-programming',
+      link: '/game-development',
       displayName: 'Game Development',
       icon: <GameDevelopmentIcon width="110" height="110" />,
     },
@@ -40,7 +41,7 @@ const CONSTANTS = {
       title: 'Compete with HMIF!',
       description:
         'Bersaing adalah keseharian kami. Menjadi yang terbaik adalah minat kami. Di HMIF, kami mau Anda untuk berada di puncak dari setiap aspek kompetisi yang memungkinkan.',
-      logo: <RiMedalFill />,
+      logo: <GiTrophy />,
     },
     {
       title: `Get The Information!`,
