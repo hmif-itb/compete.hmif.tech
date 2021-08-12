@@ -17,33 +17,35 @@ const ArticlePage = ({ data }) => {
   const title = getTitle(competitionSlug);
 
   return (
-    <div className='bg-gray-900 min-h-full'>
-      <Header siteTitle={title} />
-      <div className='container mx-auto md:px-20'>
-        <div className='p-6 md:px-20'>
-          <div className='pb-2 mb-4 relative'>
+    <div>
+      <div className='bg-gray-900 min-h-screen'>
+        <Header siteTitle={title} />
+        <div className='container mx-auto md:px-20'>
+          <div className='p-6 md:px-20'>
+            <div className='pb-2 mb-4 relative'>
+              <Link to={competitionSlug}>
+                <h1 className='text-3xl font-bold text-cnc-yellow'>
+                  {frontmatter.title}
+                </h1>
+              </Link>
+              <div
+                className='absolute bottom-0 w-48 h-1 bg-hmif-yellow'
+                style={{ content: '' }}
+              />
+            </div>
+            <ReactMarkdown
+              className='font-description text-white'
+              children={md}
+              remarkPlugins={[remarkMath]}
+              rehypePlugins={[rehypeKatex, rehypeRaw]}
+              components={components}
+            />
             <Link to={competitionSlug}>
-              <h1 className='text-3xl font-bold text-cnc-yellow'>
-                {title}
+              <h1 className='text-xl bg-gray-800 p-2 text-center mt-2 font-bold text-cnc-yellow rounded-xl'>
+                See other {title} materials!
               </h1>
             </Link>
-            <div
-              className='absolute bottom-0 w-48 h-1 bg-hmif-yellow'
-              style={{ content: '' }}
-            />
           </div>
-          <ReactMarkdown
-            className='font-description text-white'
-            children={md}
-            remarkPlugins={[remarkMath]}
-            rehypePlugins={[rehypeKatex, rehypeRaw]}
-            components={components}
-          />
-          <Link to={competitionSlug}>
-            <h1 className='text-xl bg-gray-800 p-2 text-center mt-2 font-bold text-cnc-yellow'>
-              See other {title} materials!
-            </h1>
-          </Link>
         </div>
       </div>
       <Footer />
