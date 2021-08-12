@@ -4,6 +4,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import SEO from '../components/seo';
 import '../css/article.css';
+import { GiMaterialsScience } from 'react-icons/gi';
 import { getCompetitionSlug, computeEdges, getTitle } from '../helpers/utils';
 
 const CompetitionPage = ({ location }) => {
@@ -31,36 +32,48 @@ const CompetitionPage = ({ location }) => {
         const finalEdges = computeEdges(edges, competitionSlug);
         return (
           <>
-            <div className="mx-auto bg-gray-900 text-white min-h-screen">
+            <div className='mx-auto bg-gray-900 text-white min-h-screen'>
               <SEO title={title} />
               <Header siteTitle={title} />
-              <div className="container md:px-20 mx-auto mt-5">
-                <div className="blog-post mb-12 px-6 md:px-20">
-                  <div className="pb-2 mb-4 relative font-sans">
-                    <h1 className="text-3xl font-bold text-cnc-yellow font-sans">
+              <div className='container md:px-20 mx-auto mt-5'>
+                <div className='blog-post mb-12 px-6 md:px-20'>
+                  <div className='pb-2 mb-4 relative font-sans'>
+                    <h1 className='text-3xl font-bold text-center text-cnc-yellow font-sans'>
                       {title}
                     </h1>
-                    <div className="text-xl font-bold">Materials:</div>
-                    <ul className="mb-8">
-                      {finalEdges.map((edge) => {
-                        const siteData = edge.node.frontmatter;
-                        return (
-                          <li key={siteData.title}>
-                            <Link to={siteData.slug}>
-                              <span className="text-lg text-blue-500">
+                    <div>
+                      <div
+                        className='flex flex-row justify-center items-center text-xl font-bold text-center text-hmif-yellow'>
+                        <GiMaterialsScience />
+                        <div className='px-2 '>Materials</div>
+                        <GiMaterialsScience />
+                      </div>
+                      <div className='mb-8 md:flex md:flex-col justify-center items-center '>
+                        {finalEdges.map((edge) => {
+                          const siteData = edge.node.frontmatter;
+                          return (
+                            <div className='text-xl md:w-2/3 bg-gray-800 rounded-xl p-2 text-center mt-3 font-bold'
+                                 key={siteData.title}>
+                              <Link to={siteData.slug}>
+                              <span className='text-lg'>
                                 {siteData.title}
                               </span>
-                            </Link>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                    <Link to="/">
-                      <div className='md:text-xl bg-gray-800 p-2 text-center mt-2 font-bold text-cnc-yellow'>
-                        {"Explore other Competitions!"}
+                              </Link>
+                            </div>
+                          );
+                        })}
                       </div>
-                    </Link>
+                    </div>
+
                   </div>
+                </div>
+                <div className="items-center justify-center flex flex-row">
+                  <Link to='/#explore'>
+                    <button className='text-xl bg-gray-800
+                    p-3 text-center mt-2 font-bold text-cnc-yellow rounded'>
+                      {'Explore other Competitions!'}
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>

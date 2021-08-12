@@ -18,7 +18,7 @@ const HomeLayout = () => {
           );
         })}
         <div className="container mx-auto pt-5 px-10 md:px-40 md:py-10">
-          <div className="md:text-xl flex flex-row justify-center items-center font-bold font-heading text-center text-cnc-yellow">
+          <div className="md:text-xl flex flex-row justify-center items-center font-bold font-heading text-center text-hmif-yellow">
             <AiFillCompass size={30} /> <div className=" px-3">Explore This Fields!</div>
             <AiFillCompass size={30} />
           </div>
