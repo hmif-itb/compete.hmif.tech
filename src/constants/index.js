@@ -4,7 +4,6 @@ import CaptureTheFlagIcon from '../images/svg/capture-the-flag.svg';
 import GameDevelopmentIcon from '../images/svg/game-development.svg';
 import UiUxIcon from '../images/svg/ui-ux.svg';
 import React from 'react';
-import { RiMedalFill } from 'react-icons/ri';
 import { GiTrophy } from 'react-icons/gi';
 import { BsFillInfoSquareFill, BsPeopleCircle } from 'react-icons/bs';
 
