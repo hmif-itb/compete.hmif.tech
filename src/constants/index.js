@@ -106,8 +106,8 @@ const CONSTANTS = {
     '/ui-ux': {
       contact: {
         name: 'Hera Shafira (IF 2019)',
-        number: null,
-        line: null
+        number: '08987476296',
+        line: 'herash'
       },
       links: []
     },
@@ -127,8 +127,8 @@ const CONSTANTS = {
     '/capture-the-flag': {
       contact: {
         name: 'Ariya Adinatha (IF 2019)',
-        number: null,
-        line: null
+        number: '081931031676',
+        line: 'aadinatha21'
       },
       links: [
         {
