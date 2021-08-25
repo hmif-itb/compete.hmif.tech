@@ -18,7 +18,8 @@ What differs CTF to other competitions is that the contestants are usually **enc
 There are a few styles of CTF competition, namely Jeopardy, Attack-Defense, and Hack the Box. This guide will cover mostly regarding Jeopardy style CTF, as it is the most common one.
 
 Flags in CTF are usually (but not always) a text of [leetspeak](https://en.wikipedia.org/wiki/Leet) wrapped within `CTFNAME{flag}`, e.g.:
-```
+
+```c++
 CTFGUIDE{th1s_1s_4_fl4g}
 ```
 
