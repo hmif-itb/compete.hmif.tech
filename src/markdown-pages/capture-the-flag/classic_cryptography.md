@@ -5,8 +5,9 @@ title: 'Classic Cryptography'
 ---
 # Classic Cryptography
 
-Author: Felicia Sutandijo, IF 2020
---------------------------
+## Author: Felicia Sutandijo (IF 2020)
+
+
 ## Introduction
 New to CTF? Have no programming experience? Classic cryptography is a great place to start. Classic crypto deals with a variety of codes and ciphers, much like the ones we used to play with as children (or is it just me?) In classic crypto, we are given a piece of encrypted text and the goal is to decrypt it to get the flag. To understand more about classic crypto, here are some terms you need to know.
 

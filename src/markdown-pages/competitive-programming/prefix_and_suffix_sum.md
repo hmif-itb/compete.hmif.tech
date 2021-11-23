@@ -6,6 +6,8 @@ title: 'Prefix and Suffix'
 
 ## Prefix and Suffix Sum
 
+### Author: Muhammad Hasan (IF 2018)
+
 Prefix and suffix sum is a technique that is useful to handle subarray sums.
 
 To build a prefix sum array, you are required to precompute the sum of the prefix and store it inside of an array.

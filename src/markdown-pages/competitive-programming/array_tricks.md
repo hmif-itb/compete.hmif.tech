@@ -6,6 +6,8 @@ title: 'Array Tricks'
 
 ## Array with negative indexes
 
+### Author: Muhammad Kamal Shafi (IF 2018)
+
 Sometimes while solving a problem, you will need to use an array with negative indexes. While it is possible to use hash map/map/other data structures, there are simpler and cheaper (in terms of complexity) ways to do this.
 
 Working with negative indexes, the first thing that comes to mind would probably be using some base index. Assuming that the range of indexes would be $-N \leq \text{index} \leq N$, you could use base $N$ to do this.

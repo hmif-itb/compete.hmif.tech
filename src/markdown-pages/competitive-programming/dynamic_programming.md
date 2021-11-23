@@ -6,6 +6,8 @@ title: 'Dynamic Programming'
 
 ## Dynamic Programming
 
+### Author: Muhammad Kamal Shafi (IF 2018)
+
 Dynamic Programming is an algorithm design technique to find an optimal solution of a problem or to count how many possibilities of something to occur.
 
 Dynamic Programming can be seen as an optimization method that uses memory to store an answer of recursions call. With the stored answer, you don’t need to execute the function call again and then can save some time with that later.

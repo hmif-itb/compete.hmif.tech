@@ -6,6 +6,9 @@ import { getCompetitionSlug, getTitle } from '../helpers/utils';
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+import remarkParse from 'remark-parse';
+import remarkFixGuillemets from 'remark-fix-guillemets';
+import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import { components } from '../helpers/CodeBlocks';
 import 'katex/dist/katex.min.css';
@@ -20,7 +23,7 @@ const ArticlePage = ({ data }) => {
     <div>
       <div className='bg-gray-900 min-h-screen'>
         <Header siteTitle={title} />
-        <div className='container mx-auto md:px-20'>
+        <div className='container mx-auto md:px-5'>
           <div className='p-6 md:px-20'>
             <div className='pb-2 mb-4 relative'>
               <Link to={competitionSlug}>
@@ -36,7 +39,7 @@ const ArticlePage = ({ data }) => {
             <ReactMarkdown
               className='font-description text-white'
               children={md}
-              remarkPlugins={[remarkMath]}
+              remarkPlugins={[remarkParse, remarkGfm, remarkMath, remarkFixGuillemets]}
               rehypePlugins={[rehypeKatex, rehypeRaw]}
               components={components}
             />

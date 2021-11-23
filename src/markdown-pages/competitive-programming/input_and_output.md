@@ -6,6 +6,8 @@ title: 'Input and Output'
 
 ## Input and Output
 
+### Author: Muhammad Hasan (IF 2018)
+
 Understanding input and output in CP is really important, especially when there are a lot of inputs, and also some unusual inputs. In this section, we will discuss how to do proper basic input and output in C++ for CP.
 
 ### Basic inputs

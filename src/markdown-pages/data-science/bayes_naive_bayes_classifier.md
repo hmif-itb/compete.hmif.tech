@@ -6,7 +6,7 @@ title: 'Bayes & Naïve Bayes Classifier'
 
 # Bayes & Naïve Bayes Classifier
 
-### Author: Alif Yasa, IF 2020
+### Author: Alif Yasa (IF 2020)
 
 ## Bayes' Theorem
 

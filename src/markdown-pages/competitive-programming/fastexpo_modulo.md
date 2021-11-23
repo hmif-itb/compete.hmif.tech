@@ -6,6 +6,8 @@ title: 'Fast Exponential Modulo'
 
 ## Fast Exponential
 
+### Author: Muhammad Hasan (IF 2018)
+
 Fast exponential is a useful technique which is frequently used in competitive programming. It is basically a faster approach to finding $x^y$ (where $y$ is a non-negative integer).
 
 Here is the implementation:
