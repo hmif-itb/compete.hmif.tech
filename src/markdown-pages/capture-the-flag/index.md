@@ -6,6 +6,8 @@ title: 'Guide to Capture The Flag'
 
 # Introduction
 
+### Author: Steve Bezalel (IF 2018)
+
 This is a guide on how to start CTF, covering the basics on how to solve the problems, also where to go and what to learn from this point.
 
 

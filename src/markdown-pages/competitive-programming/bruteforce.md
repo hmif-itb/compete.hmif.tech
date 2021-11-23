@@ -6,6 +6,8 @@ title: 'Bruteforce'
 
 ## Bruteforce
 
+### Author: Muhammad Hasan (IF 2018)
+
 Usually there are problems that are straightforward and could be solved using bruteforce.
 
 The most basic example is to use a layer of for loops. Say we want to find all 3 positive integers $a$, $b$, and $c$, such that $a + b + c = 10$. Then we can solve it by using bruteforce like this:

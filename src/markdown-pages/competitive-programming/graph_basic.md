@@ -6,6 +6,8 @@ title: 'Graph'
 
 ## Graph Representation
 
+### Author: Muhammad Hasan (IF 2018)
+
 [Graph](<https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>) is an abstract data type, structured with vertex/node and edge. Here is a simple example:
 
 ![GraphExample](https://media.geeksforgeeks.org/wp-content/cdn-uploads/undirectedgraph.png)

@@ -6,6 +6,8 @@ title: 'Vanilla Template'
 
 ## Template for Competitive Programming
 
+### Author: Muhammad Hasan (IF 2018)
+
 There are a lot of templates that you can use, it’s up to you really. But, usually there is a common template that many competitive programmers use.
 Which is:
 

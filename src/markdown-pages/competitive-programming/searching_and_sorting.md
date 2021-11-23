@@ -6,6 +6,8 @@ title: 'Searching and Sorting'
 
 ## Searching and Sorting
 
+### Author: Muhammad Kamal Shafi (IF 2018)
+
 ### Sorting
 
 Sorting can be said as one of the most important things to know when starting cp. There are many well-known sorting algorithms out there.

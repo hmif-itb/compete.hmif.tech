@@ -6,6 +6,8 @@ title: 'Greedy'
 
 ## Greedy
 
+### Author: Muhammad Hasan (IF 2018)
+
 Greedy is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. So the problems where choosing locally optimal also leads to global solution are best fit for Greedy.
 
 For an example, this problems is a best fit for greedy:

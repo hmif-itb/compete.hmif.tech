@@ -6,7 +6,7 @@ title: 'K-Nearest Neighbor'
 
 # K-Nearest Neighbor
 
-### Author: Alif Yasa, IF 2020
+### Author: Alif Yasa (IF 2020)
 
 Secara rata-rata, tidak ada algoritma classifier dengan data yang sama bisa lebih unggul dari *Bayes Classifier*. Sayangnya, perhitungan *Bayes Classifier* kurang mungkin dilakukan di dunia nyata karena kita tidak tahu distribusi hubungan antara data dan klasifikasi. *K-nearest neighbor* merupakan salah satu algoritma yang bisa dipakai untuk mengestimasi *Bayes Classifier*.
 

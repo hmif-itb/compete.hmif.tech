@@ -6,6 +6,8 @@ title: 'Standard Template Library'
 
 ## Standard Template Library
 
+### Author: Muhammad Hasan (IF 2018)
+
 C++ comes with a lot of useful libraries we can use. In this section we will see some of them which are used very often in competitive programming. You can use this by using `#include <bits/stdc++.h>` in the top of your code.
 
 Here are some of STL Algorithms.

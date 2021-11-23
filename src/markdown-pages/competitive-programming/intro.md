@@ -6,6 +6,8 @@ title: 'A Guide to Start Competitive Programming'
 
 ## Starting Competitive Programming
 
+### Author: Muhammad Hasan (IF 2018), Muhammad Kamal Shafi (IF 2018)
+
 Ever wanted to try and compete on Competitive Programming (CP)? Is it hard for you to find a way on how to start? Don't worry! we'll guide you on how to start CP, starting from the basics, so let's get started!
 
 ## What is Competitive Programming?
