@@ -1,7 +1,7 @@
 ---
 slug: '/data-science/guide'
 date: '2019-05-04'
-title: 'Guide to Data Science'
+title: 'A Guide to Data Science'
 ---
 
 ![header](https://raw.githubusercontent.com/ds-itb/guide/master/Picts/Header.webp)
