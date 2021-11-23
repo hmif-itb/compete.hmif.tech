@@ -11,7 +11,7 @@ author: 'Chokyi Ozer'
 
 In this tutorial, we will be making a simple top-down maze game with Unity. This course is aimed for complete beginners with basic knowledge of coding, and can understand the basics of the C# programming language.
 
-This course does not require any other downloadable content other than Unity. You can download the latest version of Unity Hub in Unity's website [(unity.com](http://www.unity.com)). This article covers the creation of a project from a fresh install of Unity.
+This course does not require any other downloadable content other than Unity. You can download the latest version of Unity Hub in Unity's website ([unity.com](http://www.unity.com)). This article covers the creation of a project from a fresh install of Unity.
 
 You can also see the full project on this link: [https://github.com/ozer0532/G003_SimpleMazeGame](https://github.com/ozer0532/G003_SimpleMazeGame)
 
