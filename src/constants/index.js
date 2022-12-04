@@ -126,9 +126,9 @@ const CONSTANTS = {
     },
     '/capture-the-flag': {
       contact: {
-        name: 'Ariya Adinatha (IF 2019)',
-        number: '081931031676',
-        line: 'aadinatha21'
+        name: 'Amar Fadil (IF 2020)',
+        number: '08137978564',
+        line: 'amfa4321'
       },
       links: [
         {
