@@ -10,7 +10,6 @@ title: 'Guide to Capture The Flag'
 
 This is a guide on how to start CTF, covering the basics on how to solve the problems, also where to go and what to learn from this point.
 
-
 ## WTF is CTF?
 
 CTF (Capture the Flag) is a type of information security competition on which the contestants will be tasked to solve a number of challenges. To solve these challenges, the contestants may have to hack a system, leak certain data, or find a piece of text hidden somewhere in a webpage or a file. All these will give the contestants a flag in form of a text which will be accumulated to points hence the name **Capture the Flag**.
@@ -28,6 +27,7 @@ CTFGUIDE{th1s_1s_4_fl4g}
 ### Subcategories in CTF
 
 Challenges given in a CTF competition usually fall into these 6 main categories:
+
 - Web Exploitation
 - Binary Exploitation / Pwning
 - Reverse Engineering
